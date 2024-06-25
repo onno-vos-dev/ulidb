@@ -1,0 +1,13 @@
+{application,
+ ulidb,
+ [{description, "ULID library"},
+  {vsn, "git"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {modules, []},
+  {pkg_name, "ulidb"},
+  {licenses, ["Apache-2.0"]},
+  {build_tools, ["rebar3"]},
+  {links, [{"GitHub", "https://github.com/onno-vos-dev/ulidb"}]},
+  {links, []}]}.
