@@ -41,7 +41,7 @@ jobs:
     - name: Create Cover Reports
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: rebar3 cover
+      run: rebar3 cover --verbose
     - name: Produce Documentation
       run: rebar3 ex_doc
     - name: Publish Documentation
